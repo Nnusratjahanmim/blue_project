@@ -1,0 +1,133 @@
+*{
+	margin :0;
+	padding:0;
+}
+	/*header start*/
+header{
+	background-color: #121B2A;
+	padding: 10px 0;
+	min-height: 70px ;
+
+}
+.wrapper{
+	width:80%;
+	margin: 0 auto;
+    /*border: 5px solid red;*/
+
+    
+    }	
+
+.logo{
+		width:15%;
+		/*border: 1px solid red;*/
+		float: left;
+
+}
+.logo img{
+	width:100%;
+}
+
+.menu{
+		width:70%;
+		/*border: 5px solid red;*/
+		float: right;
+		margin-top: 21px;
+}
+.menu ul{ 
+	float: right;
+
+}
+.menu ul li{ list-style: none;
+  float: left;
+
+}
+.menu ul li a{
+   text-decoration: none;
+   padding: 5px 15px;
+   display:block;
+   color:white;
+   transition: .3s;
+
+}
+.meun ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #0078BD ;
+}
+/*header end*/
+
+
+
+
+
+.b_content button:hover{
+	background-color: white;
+	color: #C2223C;
+}
+/*banner end*/
+/*banner start*/
+.banner {
+	background-image: url(../images/idea.jpg);
+	background-repeat:no-repeat ;
+	background-size:cover; 
+	background-position:top center;
+	min-height:300px;
+}
+
+
+.b_content {
+    
+	width:50%;
+	/*border: 2px solid red;*/
+}
+
+.b_content h1{
+	
+	font-family:sans-serif; 
+	font-size:30px;
+	/*font-weight:400px;*/
+	color:#007588;
+	
+}
+
+.b_content p:first-child {
+	font-family:sans-serif; 
+	font-size:18px;
+	color:white;
+}
+
+
+.b_content p:nth-last-child(2){
+	font-family:sans-serif; 
+	font-size:15px;
+	color:white;
+	line-height:1.5;
+}
+
+.b_content button{
+	margin-top: 40px;
+	width: 250px;
+	height:50px;
+	background-color: white;
+	color: #006FAF;
+		border: none;
+	font-family:sans-serif; 
+	font-size:17px;
+		cursor: pointer;
+	transition: .3s
+
+}
+.b_content button span {
+	background-color: blue;
+	padding: 5px 10px;
+    border-radius: 50%;
+    color:#5A5A5A;
+    font-size:18px;
+    margin-top: 20px;
+}
+.b_content button:hover{
+	background-color:#006FAF;
+	color:white;
+}
+/*banner end*/
